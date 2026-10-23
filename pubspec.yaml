@@ -1,6 +1,6 @@
 name: sidebarx
 description: flutter multiplatform navigation sidebar / side navigationbar / drawer widget
-version: 0.17.2
+version: 0.20.2
 homepage: https://github.com/Frezyx/sidebarx
 repository: https://github.com/Frezyx/sidebarx
 
@@ -18,10 +18,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  material_ui: ^1.8.0
 
+  cupertino_ui: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.1
+  flutter_lints: ^6.0.0
 
 flutter:
